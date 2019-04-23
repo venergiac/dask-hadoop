@@ -13,9 +13,35 @@ To run the excercise you need
 ## Starting
 
 ```
+docker-compose up | grep jupyter
+```
+
+to see only jupyter output. 
+
+Point the browser to:
+
+* connect to http://localhost:8888?token=your token
+* connect to http://localhost:9870
+
+
+![](figures/jupyter.png)
+
+and
+
+![](figures/hadoop.png)
+
+## Advanced Options
+
+
+You can use 
+
+```
 docker-compose up
 ```
 
+to see the output. 
+
+### Node by node
 you can also start each single node with
 
 
@@ -44,13 +70,13 @@ to see logs
 docker-compose logs -f
 ```
 
+### cleaning the volumes
 
-### Run your jupyter
-connect to http://localhost:8888?token=venergiac
+to clena the volumes
 
-
-### See hadoop
-connect to http://localhost:9870
+```
+docker volume prune
+```
 
 ## Building your own jupyer notebook (optional)
 

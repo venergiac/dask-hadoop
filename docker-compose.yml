@@ -76,12 +76,13 @@ services:
       - ./hadoop.env
 
   jupyter:
-    image: bde2020/hadoop-datanode:2.0.0-hadoop3.1.1-java8
+    image: venergiac/jupyter-dask-hdfs
     container_name: jupyter
+    ports:
+      - "8888:8888"
     depends_on:
       - namenode
     env_file:
-      - ./jupyter.env
       - ./hadoop.env
 
 volumes:
