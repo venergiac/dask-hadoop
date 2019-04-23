@@ -42,7 +42,7 @@ docker-compose up
 to see the output. 
 
 
-and
+Architecture:
 
 ![](figures/architecture.png)
 
