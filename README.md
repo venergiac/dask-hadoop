@@ -41,6 +41,11 @@ docker-compose up
 
 to see the output. 
 
+
+and
+
+![](figures/architecture.png)
+
 ### Node by node
 you can also start each single node with
 
@@ -106,3 +111,4 @@ to stop containers.
 # Credits
 
 * based on bde2020 docker compose https://hub.docker.com/u/bde2020
+* explaination of the code available at http://jugsi.blogspot.com/2019/04/working-with-hdfs-parquet-and-dask.html
