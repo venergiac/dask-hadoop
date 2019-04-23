@@ -15,18 +15,15 @@ To run the excercise you need
 ```
 docker-compose up | grep jupyter
 ```
-
 to see only jupyter output. 
 
 Point the browser to:
 
 * connect to http://localhost:8888?token=your token
-* connect to http://localhost:9870
-
 
 ![](figures/jupyter.png)
 
-and
+* connect to http://localhost:9870
 
 ![](figures/hadoop.png)
 
