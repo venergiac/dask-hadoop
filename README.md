@@ -1,3 +1,7 @@
+![github](https://img.shields.io/badge/github-repo-blue?logo=github)
+![ai](https://img.shields.io/badge/data-hadoop-green)
+[![followme](https://img.shields.io/badge/followme-venergiac-red)](https://venergiac.substack.com/)
+
 # Testing HDFS with Docker, Dask and Parquet
 
 This system builds
